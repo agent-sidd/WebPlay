@@ -34,7 +34,7 @@
             const clearKey = document.getElementById('clearKey').value;
             const clearKeyId = document.getElementById('clearKeyId').value;
 
-            let redirectLink = '/Player/Player.html?';
+            let redirectLink = './Player.html?';
 
             if (mediaLink.includes('.mpd')) {
                 redirectLink += `mpd=${mediaLink}&keyId=${clearKeyId}&key=${clearKey}`;
